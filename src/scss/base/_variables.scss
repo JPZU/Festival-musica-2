@@ -1,0 +1,19 @@
+// Lo cree con el '_' al principio para que sass sepa que no es el archivo principal.
+
+// Tipografia
+$fuente_principal: "Montserrat", sans-serif;
+
+// colores
+$verde: #4cb8b3;
+$rosa: #f53756;
+$amarillo: #fef46d;
+$morado: #752f97;
+$negro: #000;
+$blanco: #fff;
+
+// Tamanos medias queries
+
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 992px;
+$desktopXL: 1200px;

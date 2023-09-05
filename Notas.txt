@@ -1,0 +1,20 @@
+
+----DIFERENCIAS ENTRE @USE, @FORWARD, @IMPORT----
+
+src/scss/ 
+- Para crear la ruta para separar los estilos de la pagina web, para tener un 
+archivo de fuentes, globales, contenedores, organiza mejor tu codigo. 
+
+@import --Buscar el archivo para importar en este archivo principal
+@import "base/variables";
+@import "contenido/contenido";
+
+Tambien puedo usar el complemento de forward, pero es mas largo y complicado.
+Requiere: 
+- Crear un index en cada carpetas de index en src/scss/base y src/scss/contenido y crear en el archivo la ruta que apunte a los otros 
+archivos.
+- Aparte de eso no puedo usar import, uso 'use'
+
+----ANADIENDO PLUMBER----
+Es una libreria de gulp para que si tengo un error no tener que volver a compilar npx gulp dev, 
+me especifica el error
